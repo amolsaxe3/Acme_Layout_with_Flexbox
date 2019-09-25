@@ -81,3 +81,30 @@ input,select {
     display: flex;
     justify-content: center;
 }
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    
+        /* width: 100vw;
+        height: 100vh; */
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        /* width: 100vw;
+        height: 100vh; */
+    }
+    .users {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        /* width: 100vw;
+        height: 100vh; */
+    }
+    }
